@@ -1,0 +1,135 @@
+*{
+        list-style-type: none;
+}
+body{
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 150;
+    font-style: normal;
+    }
+    
+    
+.ul-menu{
+    background-color: black;
+    color:aliceblue;
+    overflow: hidden;
+    text-align:center;
+}
+.li-menu{
+    float: left;
+}
+.a-menu{
+text-decoration: none;
+color:aliceblue;
+font-size: 20px;
+display: block;
+padding: 15;
+}
+a:hover{
+    background-color: rgb(21, 21, 21);
+}
+.title-menu{
+    font-size:40px;
+    display:inline;
+    
+}
+.column{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.profile{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+.socails{
+    width: 25px;
+    padding: 5px;
+}
+.left{
+    width: 20%;
+    float: left;
+}
+.right{
+    width: 80%;
+    float: left;
+}
+.row{
+    padding: 5px;
+}
+.row:after{
+display: table;
+clear: both;
+content: "";
+}
+.main-bar{
+    background-color: gray;
+    display: block;
+    height: 20px;
+}
+.main-bar span{
+    background-color: teal;
+    height: 20px;
+    display: block;
+    color: white;
+}
+.javascript{
+    width: 90%;
+    animation: javascript 2s;
+}
+.linux{
+    width: 40%;
+    animation: linux 2s;
+}
+.python{
+    width: 70%;
+    animation: python 2s;
+}
+
+@keyframes javascript{
+    0%{
+width: 0%;
+background-color:  lightblue;
+    }
+
+    100%{
+width: 90%;
+background-color: teal;
+    }
+}
+@keyframes linux{
+    0%{
+width: 0%;
+background-color:  lightblue;
+    }
+
+    100%{
+width: 40%;
+background-color: teal;
+    }
+}
+@keyframes python{
+    0%{
+width: 0%;
+background-color:  lightblue;
+    }
+
+    100%{
+width: 70%;
+background-color: teal;
+    }
+}
+
+.footer{
+    width: 100%;
+    background-color: black;
+    color:aliceblue;
+text-align: center;
+}
+
+@media screen and (max-width:800px) {
+    .column{
+        width: 100%;
+    }
+}
